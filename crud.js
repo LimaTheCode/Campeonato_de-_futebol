@@ -259,7 +259,7 @@ function mostrarPontuacao() {
   console.table(tabela.map(({ id, ...resto }, i) => ({ posicao: i + 1, ...resto })));
 }
 
-// ---------- MENU PRINCIPAL ----------
+//MENU PRINCIPAL
 async function main() {
   console.log('\n⚽ CAMPEONATO DE FUTEBOL ⚽\n');
 
